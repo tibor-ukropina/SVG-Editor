@@ -1,0 +1,132 @@
+#thumbnail{
+    width: 200px;
+}
+#table-wrapper {
+    position:relative;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+}
+#table-scroll {
+    height:500px;
+    overflow:auto;  
+    margin-top:20px;
+    border: solid gray 0.1em;
+}
+
+#names{
+    border: solid gray 0.1em;
+}
+
+#empty{
+    margin-top: 20px;
+}
+
+#view {
+
+    margin: auto;
+    width: 1000px;
+    padding: 40px;
+}
+
+#main{
+    margin: auto;
+    width: 800px;
+}
+
+#upload{
+    align-self: auto;
+    margin-left: 4px;
+}
+
+#view-panel {
+    height:800px;
+    overflow:auto;  
+    border: solid gray 0.1em;
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+}
+#myimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#finale{
+    margin-bottom: 50px;
+}
+
+#avatar{
+    margin-left:20px;
+}
+
+.container{
+    width: 100%;
+    white-space: nowrap;
+    
+}
+
+input[type=text]{
+    color: gray;
+}
+
+
+html {
+    width: 60%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1.75;
+    background-color: #FFFFFF;
+}
+a:link:hover {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+    cursor: pointer;
+    cursor: hand;
+}
+input[type=submit], button {
+    cursor: pointer;
+    cursor: hand;
+}
+h2{
+    text-align: center;
+    padding-top: .50em;
+    padding-bottom: .30em;
+}
+h3{
+    text-align: center;
+    padding-top: .50em;
+    padding-bottom: .30em;
+}
+h4{
+    text-align: center;
+    padding-bottom: .30em;
+    color: gray;
+}
+@media(max-width: 900px) {
+    html {
+        font-size: 14px !important;
+        width: 80% !important;
+    }
+}
+@media(max-width: 480px) {
+    html {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+}
+@media(max-width: 320px) {
+    html {
+        font-size: 12px !important;
+        width: 100% !important;
+    }
+}

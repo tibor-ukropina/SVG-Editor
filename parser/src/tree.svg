@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg>
+  <rect attribute="yes" foo="bar">this node has attributes</rect>
+</svg>
