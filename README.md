@@ -6,3 +6,5 @@ parsing xml files. The backend has functions for creating, editing, deleting, an
 shared object file, libsvgparse.so, which is read by the Node library, ffi-napi, to allow the C functions to be used in the Javascript frontend. 
 
 Tools Used: C, Javascript, Make, Express, Ajax, Node, libxml2, HTML, CSS, Bootstrap 4
+
+![](images/Picture1.png)
